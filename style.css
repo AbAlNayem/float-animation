@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.css-float{
+    width: 100%;
+    
+}
+
+.css-float h5{
+    padding-top: 20px;
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.css-float h1{
+    line-height: 50px;
+}
+.css-float p{
+    font-size: 18px;
+    color: rgb(113, 111, 111)
+}
+.css-float .b-group{
+    padding: 30px 0;
+}
+.css-float .btn{
+    background-color: #008ed6;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #008ed6;
+    transition: all .4s ease-in-out;
+}
+.css-float .btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+/* animation css */
+img{
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+    animation: animate 2s alternate infinite;
+}
+
+@keyframes animate{
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 50px;
+    }
+}
